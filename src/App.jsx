@@ -2,12 +2,16 @@ import React from 'react';
 
 import './App.css';
 import Index from './pages/Homepage';
+import Login from './pages/Authentication/Login';
+import Signup from './pages/Authentication/Signup';
 
 function App() {
 
   return (
     <>
-      <Index/>
+      {/* <Index/> */}
+      {/* <Login/> */}
+      <Signup/>
     </>
     
   )
