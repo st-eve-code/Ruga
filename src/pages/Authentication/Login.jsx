@@ -9,22 +9,20 @@ function Login() {
             <p className="text-md font-normal text-center text-gray-400 mt-[-2.4rem]">Please fill in the form below</p>
             <div className="flex justify-center mt-4">
                 <form className="login-form" action="" method="POST">
-                    <label htmlFor="username" className='font-sans font-semibold text-gray-600 text-md'>Username</label>
-                    <input type="text" name="username" id="username" placeholder='Enter your username' className="w-full py-2 pl-2 mt-2 mb-2 text-gray-600 border rounded-md" required />
                     <label htmlFor="email" className='font-sans font-semibold text-gray-600 text-md'>Email</label>
-                    <input type="email" name="email" id="email" placeholder='Enter your email' className="w-full py-2 pl-2 mt-2 text-gray-600 border rounded-md" required />
+                    <input type="email" name="email" id="email" placeholder='Enter your email' className="w-full py-2 pl-2 mt-2 mb-3 text-gray-600 border rounded-md" required />
                     <label htmlFor="password" className='font-sans font-semibold text-gray-600 text-md'>Password</label>
                     <input type="password" name="password" id="password" placeholder='Enter your password' className="w-full py-2 pl-2 mt-2 text-gray-600 border rounded-md" required />
                     <p className="pt-3 text-sm font-normal text-gray-600">Don't have an account ?  <span className='text-blue-400 cursor-pointer'>Signup</span> </p>
                     <button type="submit" className="w-full py-2 mt-5 text-white bg-green-500 rounded-md hover:bg-green-400">Submit</button>
                 </form>
             </div>
-            <div className="mt-3 mb-2 text-center text-gray-600">Or</div>
+            <div className="mt-3 mb-3 text-center text-gray-600">Or</div>
             <button type="button" className="flex items-center justify-center w-full gap-5 py-3 font-medium text-gray-500 rounded-md shadow-md cursor-pointer hover:bg-gray-100/50">
                 <FaGoogle size={20} />
                 Continue with Google
             </button>
-            <p className="pt-3 text-sm font-normal text-center text-gray-400">
+            <p className="pt-5 text-sm font-normal text-center text-gray-400">
                 By clicking on submit you agree to our <span className="text-blue-400 cursor-pointer">terms</span> and <span className="text-blue-400 cursor-pointer">privacy</span> policies
             </p>
         </div>
